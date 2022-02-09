@@ -1,0 +1,13 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "hello:lib"
+
+    - path: "./app/Main.hs"
+      component: "hello:exe:hello-exe"
+
+    - path: "./app/Paths_hello.hs"
+      component: "hello:exe:hello-exe"
+
+    - path: "./test"
+      component: "hello:test:hello-test"
